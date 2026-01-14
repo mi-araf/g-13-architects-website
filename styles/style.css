@@ -36,6 +36,12 @@
     border-radius: 8px;
     border: none;
 }
+.btn-primary:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    opacity: 0.9;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.45);
+}
 
 main {
     max-width: 1440px;
@@ -188,6 +194,16 @@ main > section {
 .sponsor-companies img {
     filter: grayscale(100%);
 }
+
+/* footer styles */
+footer {
+    max-width: 1440px;
+    margin: 130px auto;
+    background-color: #fff4e7;
+    text-align: center;
+    padding: 39px 0;
+}
+
 
 
 /* responsive media */
